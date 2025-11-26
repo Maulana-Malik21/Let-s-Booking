@@ -4,7 +4,7 @@ const venuesData = {
     name: "ASATU ARENA CIKINI",
     loc: "Jl. RP. Soeroso No.1, Cikini, Kec. Menteng, Kota Jakarta Pusat",
     price: 1050000,
-    img: "./image/ASATU CIKINI.jpg",
+    img: "https://gelora-public-storage.s3-ap-southeast-1.amazonaws.com/upload/public-20230327114416.jpg",
     type: "Mini Soccer",
     description:
       "Lapangan mini soccer outdoor dengan rumput sintetis berkualitas tinggi dan standar FIFA. Dilengkapi dengan pencahayaan yang optimal untuk pertandingan malam hari.",
@@ -27,7 +27,7 @@ const venuesData = {
     name: "LAPANGAN 45 PERMATA HIJAU",
     loc: "Jl. Logam Jl. Komp. Permata Hijau, RT.7/RW.8, Grogol Utara, Kec. Kebayoran Lama, Jakarta, Daerah Khusus Ibukota Jakarta 12210",
     price: 1080000,
-    img: "./image/lapangan elite mini soccer.jpg",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxavu4EFmQBesMKRbLR4Dn42fHGFTvrFW1Y9_rgRmkiBhlJNFNuE0y1awiZ9T1Rxz656u32Sx18FhzTi57WfflV6vnsfu02Umn8oakBRZ_RPNq90gR44fYJNaXY4WVaZolp4NdrJA=s680-w680-h510-rw",
     type: "Mini Soccer",
     description:
       "Venue lapangan mini soccer dengan lapangan berkualitas tinggi dan fasilitas lengkap. Cocok untuk latihan maupun pertandingan.",
@@ -51,12 +51,12 @@ const venuesData = {
     name: "T ARENA",
     loc: "Pasar Jaya, Jl. Tebet Timur Dalam Raya Lantai 3, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12820",
     price: 250000,
-    img: "./image/Lapangan Futsal.jpg",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyauIsPohhVtrdldhQkwJBKGHz8SaF_Hsx-FoVdJLepmBrdUYZsLfk2nL3E2Igz_ESpo15R-edbTayYzX75wWoMiLUMRN6-wGrFauY5ZwzA30m9j6bwPjy8VIDMe4Qx5D0CbqrF=s680-w680-h510-rw",
     type: "Futsal",
     description:
       "Arena futsal dengan multiple court dan fasilitas modern. Terletak di lokasi strategis dengan akses mudah.",
     facilities: [
-      "3 Lapangan Futsal",
+      "1 Lapangan Mini Soccer",
       "Pencahayaan LED",
       "Kantin",
       "Parkir Luas",
@@ -73,7 +73,7 @@ const venuesData = {
     name: "KOCI SOCCER FIELD",
     loc: "Jl. Margonda Raya, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16423",
     price: 600000,
-    img: "./image/Lapangan Futsal Senayan.webp",
+    img: "https://lh3.googleusercontent.com/p/AF1QipNaCkG6yhccooSxxfLytDXqnbq1NcPYklMEnRRz=s680-w680-h510-rw",
     type: "Soccer",
     description:
       "Lapangan sepak bola full size dengan rumput alami dan fasilitas lengkap. Cocok untuk pertandingan resmi maupun latihan.",
@@ -97,7 +97,7 @@ const venuesData = {
     name: "PADEL PRO",
     loc: "Jl. Kemang II No.35, Bangka, Mpg. Prapatan, South Jakarta City, Jakarta 12730",
     price: 800000,
-    img: "./image/lapangan padel jakarta.jpg",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyjsmgzPwh-KeZ_pQx8py91RM0OMMx50KXv0Usx9MNk2vWPxKb-qyKkWnfi0b3e8szas_6XCq-7CtV3zKuU9Db_F_MciiXlztwGfZeIXs8cu6hC11Nc75_rgoZuzZeDTWik5uIz=s680-w680-h510-rw",
     type: "Padel",
     description:
       "Lapangan padel berukuran 20m x 10m dengan net setinggi 0,88 m di tengah dan 0,92 m di sisi. Bagian belakang menggunakan kaca tempered 3 m ditambah mesh hingga 4 m, sementara sisi samping terdiri dari kaca dan mesh setinggi 3 m. Desain ini mengikuti standar internasional untuk memberikan permainan yang aman dan nyaman.",
@@ -121,12 +121,12 @@ const venuesData = {
     name: "GOR BADMINTON LODAYA",
     loc: "Jl. Lodaya No.20, Malabar, Kec. Lengkong, Kota Bandung, Jawa Barat 40262",
     price: 125000,
-    img: "./image/lapangan badminton.webp",
+    img: "https://i.pinimg.com/736x/98/dc/59/98dc5935665c2ab5732e52f92c32e05e.jpg",
     type: "Badminton",
     description:
-      "Gedung bulutangkis dengan 8 lapangan dan fasilitas modern. Cocok untuk latihan maupun turnamen.",
+      "Gedung bulutangkis dengan 2 lapangan dan fasilitas modern. Cocok untuk latihan maupun turnamen.",
     facilities: [
-      "8 Lapangan Badminton",
+      "2 Lapangan Badminton",
       "Pencahayaan Optimal",
       "Kantin",
       "Parkir Luas",
@@ -144,7 +144,7 @@ const venuesData = {
     name: "GANESHA TENNIS",
     loc: "Jl. Tanah Mas IV, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13210",
     price: 100000,
-    img: "./image/lapangan tenis.webp",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxSfrAVaB0MMS7f3ShirudTCeHZujv7x1cI7nlJNQI_3cXnq0LuhjpfcPGC2Phz9i3rdozwKg8I8uAiZ1ke4PGR06v8LQoUKk5XshhvFlY448p_mKMJsF7OxEAgELeYGbT-3NXrCPL2S-5m=s680-w680-h510-rw",
     type: "Tennis",
     description:
       "Kompleks tenis dengan 5 lapangan berkualitas. Dilengkapi dengan fasilitas lengkap untuk kenyamanan bermain.",
@@ -168,7 +168,7 @@ const venuesData = {
     name: "PADEL CAFE",
     loc: "Jl. Buana No.5b, RT.2/RW.8, Pd. Pinang, Kec. Kebayoran Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12310",
     price: 450000,
-    img: "./image/lapangan padel cafe.jpg",
+    img: "https://www.grahaexcel.com/storage/files/1/atap-lapangan-padel-cover.jpg",
     type: "Padel",
     description:
       "Venue padel tennis pertama di Jakarta dengan konsep cafe yang nyaman. Cocok untuk bersantai sambil berolahraga.",
@@ -192,7 +192,7 @@ const venuesData = {
     name: "DNA ARENA CINERE",
     loc: "Jl. Raya Krukut No.7, Krukut, Kec. Limo, Kota Depok, Jawa Barat 16512",
     price: 900000,
-    img: "./image/lapangan mini soccer dna cinere.jpg",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxDHVL__qsA6khSc-HwvSDgHZ1ajL5UWvzFUuIn0gQj9cpL5To6QUielijNpzkq1MBN1ZWW0k6YAdv42UzU9cNKRh2kkYnw8zzKHdHD9DK1rHHJNx0enN2Xhd1H--_cx1k7os5Q=s680-w680-h510-rw",
     type: "Soccer",
     description:
       "Lapangan sepak bola dengan rumput sintetis berkualitas tinggi. Dilengkapi dengan fasilitas modern untuk kenyamanan bermain.",
@@ -216,7 +216,7 @@ const venuesData = {
     name: "ITI STADION ARENA",
     loc: "Kampus ITI, Jl. Raya Puspitek, Setu, Kec. Setu, Kota Tangerang Selatan, Banten 15314",
     price: 850000,
-    img: "./image/lapangan mini soccer ITI.webp",
+    img: "https://lh3.googleusercontent.com/p/AF1QipNf_yoUEayQCJST9BL3e2-0qLsYh5BOIh7rBEJZ=s680-w680-h510-rw",
     type: "Soccer",
     description:
       "Stadion luas dengan kapasitas penonton 50 orang. Cocok untuk pertandingan antar komunitas maupun perusahaan.",
@@ -240,7 +240,7 @@ const venuesData = {
     name: "SOCCER CHIEF",
     loc: "Jl. Bintaro Raya, RT.4/RW.10, Bintaro, Kec. Pesanggrahan, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12330",
     price: 950000,
-    img: "./image/lapangan mini soccer chief.jpg",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxecTiQ8zM_yyE6KXBDAnac2TyVaG6vo8fv0GVWB0aulI5rnnfh2OyaffZ4X9I24sOvs97rbV-XrXyFZew3zsTzGkCwCu5W9N3XgdGVA_I6A0oI1bKmwOcmT6utRbnVqjRFceooBQ=s680-w680-h510-rw",
     type: "Soccer",
     description:
       "Lapangan sepak bola full size di kawasan Bintaro. Dilengkapi dengan rumput sintetis dan fasilitas lengkap.",
@@ -264,7 +264,7 @@ const venuesData = {
     name: "TIFOSI SPORT CENTER",
     loc: "Jl. Radin Inten II Jl. Kav. Dki No.31 No.A30, Duren Sawit, Durensawit, East Jakarta City, Jakarta 13440",
     price: 750000,
-    img: "./image/lapangan futsal tifosi sport center.webp",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzzkqzpd5o608S4ZWo0YFk-9cNDLdrpBtZ6RG5DAg6Wuu7_m6Ps17iDtPAu6aIVHV3MlzY80DwmkHXcLrkSA9L4VWKVUMyXHcaGtc7-mdkmloTt6OP2RynJYlPzbQbTVeiS73ny=s680-w680-h510-rw",
     type: "Futsal",
     description:
       "Arena futsal modern dengan 3 lapangan indoor berkualitas. Cocok untuk latihan maupun turnamen.",
@@ -286,7 +286,7 @@ const venuesData = {
     name: "STADIUMS FUTSAL",
     loc: "Jl. Pondok Jagung Timur No.35, Pd. Jagung Tim., Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15326",
     price: 300000,
-    img: "./image/lapangan futsal stadium.webp",
+    img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwO6D9agNxqUPfZL5RX2fDGgH7MjqvDIfuT6Hs9NYR3u-_ylF9YeQR7JqC5MdC_Ar5vfdd7d59aufDtAhytrOJ6x64wqsG4a-lf9EkBBTI8E8-w9HaUgYrYFUl0kWEMPcUWlls=s680-w680-h510-rw",
     type: "Futsal",
     description:
       "Pusat futsal dengan 2 lapangan berkualitas dan fasilitas lengkap. Terletak di lokasi strategis.",
@@ -308,7 +308,7 @@ const venuesData = {
     name: "DIAN JAYA BADMINTON",
     loc: "Jl. Letnan Arsyad Raya No.2, RT.005/RW.012, Kayuringin Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17144",
     price: 80000,
-    img: "./image/lapangan badminton dian jaya bekasi.webp",
+    img: "https://ik.imagekit.io/tvlk/blog/2024/07/shutterstock_1882495984.jpg?tr=q-70,c-at_max,w-1000,h-600",
     type: "Badminton",
     description:
       "Gedung bulutangkis dengan 3 lapangan dan sistem booking online. Fasilitas modern dan nyaman.",
@@ -330,7 +330,7 @@ const venuesData = {
     name: "LAPANGAN TENIS BUMI BINTARO PERMAI",
     loc: "Jl. Bintaro Melati II No.9 4, RT.4/RW.8, Pesanggrahan, Kec. Pesanggrahan, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12320",
     price: 120000,
-    img: "./image/lapangan tenis bumi bintaro permai.webp",
+    img: "https://gelora-public-storage.s3-ap-southeast-1.amazonaws.com/upload/public-20210216101046.jpg",
     type: "Tennis",
     description:
       "Kompleks tenis dengan 1 lapangan berkualitas. Dilengkapi dengan pelatih profesional untuk semua level.",
@@ -353,7 +353,7 @@ const venuesData = {
     name: "MINI SOCCER ANNISA PRATAMA",
     loc: "Jl. Raya Karadenan No.KM 4, RT.003/RW.03, Karadenan, Kec. Cibinong, Kabupaten Bogor, Jawa Barat",
     price: 750000,
-    img: "./image/lapangan mini soccer annisa pratama.webp",
+    img: "https://gelora-public-storage.s3-ap-southeast-1.amazonaws.com/upload/public-20220902071847.jpg",
     type: "Soccer",
     description:
       "Lapangan sepak bola dengan view pegunungan Bogor yang indah. Dilengkapi dengan rumput sintetis berkualitas tinggi.",
@@ -376,7 +376,7 @@ const venuesData = {
     name: "LOLA FUTSAL",
     loc: "Jl. Mandala II No.2, RT.03/RW.02, Ciparigi, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16710",
     price: 200000,
-    img: "./image/lapangan futsal lola.jpg",
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN2GNPuEmtgx5QonY_Mj5MqBdPCtwiRqlm1hAu5RGc2Dr7_THJ3jQKGSRPbb3tjckr6A0M_dByT1fMBOlD4q36f3VASwI5FY2tTyI8keOhsUBErQHidqJBkrZa0coFps2hxon5TQvr98E/s1600/pembuatan+lapangan+futsal.jpg",
     type: "Futsal",
     description:
       "Arena futsal indoor dengan 2 lapangan berkualitas. Cocok untuk latihan maupun turnamen.",
@@ -398,7 +398,7 @@ const venuesData = {
     name: "KING BADMINTON",
     loc: " Jl. Sholeh Iskandar No.19, Kedung Jaya, Kec. Tanah Sereal, Kota Bogor, Jawa Barat 16164",
     price: 90000,
-    img: "./image/lapangan king badminton.webp",
+    img: "https://gelora-public-storage.s3-ap-southeast-1.amazonaws.com/upload/public-20250712075118.jpg",
     type: "Badminton",
     description:
       "Gedung bulutangkis dengan 2 lapangan dan sistem pencahayaan profesional.",
@@ -420,7 +420,7 @@ const venuesData = {
     name: "Lapangan Tennis Indor Yasmin Sport Centre",
     loc: "Yasmin Centre, Jl. KH. R. Abdullah Bin Nuh, RT.06/RW.02, Curugmekar, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16113",
     price: 150000,
-    img: "./image/lapangan tenis bogor.jpeg",
+    img: "https://gelora-public-storage.s3-ap-southeast-1.amazonaws.com/upload/public-20250206082043.jpg",
     type: "Tennis",
     description:
       "Klub tenis dengan 1 lapangan outdoor berkualitas. Dilengkapi dengan pelatih profesional.",
@@ -443,10 +443,10 @@ const venuesData = {
     name: "PADEL PARK BOGOR",
     loc: "Jl. Raya Tajur, RT.02/RW.07, Muarasari, Kec. Bogor Sel., Kota Bogor, Jawa Barat 16137",
     price: 500000,
-    img: "./image/lapangan padel.webp",
+    img: "https://gelora-public-storage.s3-ap-southeast-1.amazonaws.com/upload/public-20250122083301.jpg",
     type: "Padel",
     description:
-      "Lapangan Padel dengan rumput sintetis berkualitas. Cocok untuk pertandingan kecil.",
+      "Lapangan Padel dengan lantai vinyl berkualitas. Cocok untuk pertandingan kecil.",
     facilities: [
       "Rumput Sintetis Standar",
       "Pencahayaan LED",
@@ -465,7 +465,7 @@ const venuesData = {
     name: "The Bucketlist Indonesia",
     loc: "Jl. R. H. Moh. Tohir No.1, RT.07/RW.10, Tanah Baru, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16154",
     price: 180000,
-    img: "./image/lapangan basket bogor.webp",
+    img: "https://9f2f1052.delivery.rocketcdn.me/wp-content/uploads/elementor/thumbs/%E6%A0%87%E5%87%86%E7%AF%AE%E7%90%83%E5%9C%BA_%E6%9C%A8%E7%BA%B9-qec43yf84eu250czwn0gdeu9v12n1hdvvwe6jhfccs.webp",
     type: "Basket",
     description:
       "Lapangan basket indoor dengan 1 court berkualitas. Dilengkapi dengan AC dan fasilitas lengkap.",
@@ -555,10 +555,10 @@ const venuesData = {
     number: "Lapangan 1-4",
   },
   surabaya_tennis: {
-    name: "SURABAYA TENNIS GARDEN",
-    loc: "Surabaya, Jawa Timur",
+    name: "Lapangan Tenis Indoor",
+    loc: " Jl. Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231",
     price: 180000,
-    img: "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=1200&q=80",
+    img: "https://asset.ayo.co.id/image/venue/174217663064767.image_cropper_76134A67-B2B9-43AC-9541-89FBDBD60734-27195-000003B134633EEF.jpg_middle.jpeg",
     type: "Tennis",
     description:
       "Kompleks tenis dengan 5 lapangan berkualitas. View taman yang menyegarkan.",
@@ -571,7 +571,8 @@ const venuesData = {
       "Toilet",
       "Pro Shop",
     ],
-    location: "Jl. Kusuma Bangsa No. 23, Surabaya",
+    location:
+      "Jl. Ketintang No.156, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231",
     area: "23.77m x 10.97m",
     length: "23.77 meter",
     number: "Lapangan 1-5",
@@ -580,7 +581,7 @@ const venuesData = {
     name: "JUNGLE PADEL CITRALAND",
     loc: "SCBD CF-11, Citraland, Made, Kec. Sambikerep, Surabaya, Jawa Timur 60219",
     price: 600000,
-    img: "./image/lapangan padel surabya.webp",
+    img: "https://www.goersapp.com/blog/wp-content/uploads/2025/08/Lapangan-Padel-di-Jogja.webp",
     type: "Padel",
     description:
       "Lapangan padel dengan standar internasional. Cocok untuk latihan tim.",
@@ -602,7 +603,7 @@ const venuesData = {
     name: "KSC Kebraon Sport Center",
     loc: "Jl. Kebraon II No.31, Kebraon, Kec. Karangpilang, Surabaya, Jawa Timur 60222",
     price: 120000,
-    img: "./image/lapangan voli surabya.jpg",
+    img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJB4UEaVUvIHPGbW8U6nieTaRuAD-nnYJharjq_MVqQTQy98esL7Kdn_ddplADgz6lQh95rZkeW57Ow2KOSuDMOlqgYv_cuClMf5LWFpQspaSy9O3V8USVe9nNbXI2O8yEKo9TMpNxSxrW_am3AdnRr2mFf2y0FyklRWYAsGu2NKCBayHKmG7PO6zk1Ro/s612/voli13.webp",
     type: "Voli",
     description:
       "Lapangan voli indoor dengan 1 court berkualitas. Dilengkapi dengan AC dalam ruangan.",
@@ -627,7 +628,7 @@ const venuesData = {
     name: "Kickoff Arena",
     loc: "Jalan bukit panorama kav 2 dan 3, graha candi golf, Kota Semarang, Jawa Tengah 50267",
     price: 850000,
-    img: "./image/lapangan soccer semarang.webp",
+    img: "https://diskominfomc.kalselprov.go.id/wp-content/uploads/2024/12/photo_2024-12-14_21-49-43.jpg",
     type: "Soccer",
     description:
       "Lapangan sepak bola dengan view pegunungan. Rumput sintetis berkualitas tinggi.",
@@ -795,7 +796,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: "Jl. SMTK Medan No.10, Padang Bulan Selayang I, Kec. Medan Selayang, Kota Medan, Sumatera Utara 20154",
+    location:
+      "Jl. SMTK Medan No.10, Padang Bulan Selayang I, Kec. Medan Selayang, Kota Medan, Sumatera Utara 20154",
     area: "25m x 15m",
     length: "25 meter",
     number: "Lapangan 1-2",
@@ -816,7 +818,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: "Jl. Letda Sujono No.88A, Tembung, Kec. Medan Tembung, Kota Medan, Sumatera Utara 20371",
+    location:
+      "Jl. Letda Sujono No.88A, Tembung, Kec. Medan Tembung, Kota Medan, Sumatera Utara 20371",
     area: "13.4m x 6.1m",
     length: "13.4 meter",
     number: "Lapangan 1-8",
@@ -838,7 +841,8 @@ const venuesData = {
       "Toilet",
       "Pro Shop",
     ],
-    location: "Jl. Mongonsidi, Anggrung, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20152",
+    location:
+      "Jl. Mongonsidi, Anggrung, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20152",
     area: "23.77m x 10.97m",
     length: "23.77 meter",
     number: "Lapangan 1",
@@ -858,7 +862,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: "JJl. H. Adam Malik No.90, Silalas, Kec. Medan Bar., Kota Medan, Sumatera Utara 20235",
+    location:
+      "JJl. H. Adam Malik No.90, Silalas, Kec. Medan Bar., Kota Medan, Sumatera Utara 20235",
     area: "10m x 20m",
     length: "10 meter",
     number: "Lapangan 1",
@@ -878,7 +883,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: "Jl. Gaperta No.100, Helvetia Tengah, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20123",
+    location:
+      "Jl. Gaperta No.100, Helvetia Tengah, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20123",
     area: "18m x 9m",
     length: "18 meter",
     number: "Court 1",
@@ -902,7 +908,8 @@ const venuesData = {
       "Toilet",
       "Cafe Beach",
     ],
-    location: "Entrance Beside DINA, Gg. Kerinci, Padangsambian Klod, Denpasar Barat, Denpasar City, Bali 80117",
+    location:
+      "Entrance Beside DINA, Gg. Kerinci, Padangsambian Klod, Denpasar Barat, Denpasar City, Bali 80117",
     area: "100m x 64m",
     length: "100 meter",
     number: "Lapangan Utama",
@@ -923,7 +930,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: "Jl. Sipirok No.118, Padang Bulan Selayang I, Kec. Medan Selayang, Kota Medan, Sumatera Utara 20154",
+    location:
+      "Jl. Sipirok No.118, Padang Bulan Selayang I, Kec. Medan Selayang, Kota Medan, Sumatera Utara 20154",
     area: "25m x 15m",
     length: "25 meter",
     number: "Lapangan 1",
@@ -944,7 +952,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: "Jl. Glogor Carik, Pemogan, Denpasar Selatan, Kota Denpasar, Bali",
+    location:
+      "Jl. Glogor Carik, Pemogan, Denpasar Selatan, Kota Denpasar, Bali",
     area: "13.4m x 6.1m",
     length: "13.4 meter",
     number: "Lapangan 1-83",
@@ -966,7 +975,8 @@ const venuesData = {
       "Toilet",
       "Pro Shop",
     ],
-    location: "Jl. Katik Lantang, Singakerta, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",
+    location:
+      "Jl. Katik Lantang, Singakerta, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",
     area: "23.77m x 10.97m",
     length: "23.77 meter",
     number: "Lapangan 1-3",
@@ -986,7 +996,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: " Kawasan Jimbaran Hub Jalan Karang Mas Sejahtera, Jl. Pura Taksu, Jimbaran, Kec. Kuta Sel., Kabupaten Badung, Bali 80361",
+    location:
+      " Kawasan Jimbaran Hub Jalan Karang Mas Sejahtera, Jl. Pura Taksu, Jimbaran, Kec. Kuta Sel., Kabupaten Badung, Bali 80361",
     area: "10m x 20m",
     length: "20 meter",
     number: "Lapangan Beach 1 & 2",
@@ -997,8 +1008,7 @@ const venuesData = {
     price: 150000,
     img: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvuzWGvLds2M5NKq0eWyHQWJqrRBc8X4_7ZfqKKRhs2wSzgZEHm8CUoT-Ak9es02PDJrp13Oy2Br_N0luZpGddwMyi_gVgeuBDdZNterPwyNIJKDH9y980Momsw_GreoarwL0SMg=s680-w680-h510-rw",
     type: "Fitness",
-    description:
-      "lapangan voli dengan lantai vinyl yang berkualitas",
+    description: "lapangan voli dengan lantai vinyl yang berkualitas",
     facilities: [
       "Pencahayaan LED",
       "Bench",
@@ -1006,7 +1016,8 @@ const venuesData = {
       "Kamar Ganti",
       "Toilet",
     ],
-    location: "l. Bypass Ngurah Rai No.88, Kesiman Petilan, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
+    location:
+      "l. Bypass Ngurah Rai No.88, Kesiman Petilan, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
     area: "18m x 9m",
     length: "18 meter",
     number: "Lapangan 1",
@@ -1279,36 +1290,36 @@ const venueMapsLinks = {
   bogor_basket: "https://maps.app.goo.gl/cQgYUrsi2C9r62Fa7",
 
   // Kota Surabaya
-  surabaya_soccer: "https://maps.app.goo.gl/example22",
-  surabaya_futsal: "https://maps.app.goo.gl/example23",
-  surabaya_badminton: "https://maps.app.goo.gl/example24",
-  surabaya_tennis: "https://maps.app.goo.gl/example25",
-  surabaya_mini: "https://maps.app.goo.gl/example26",
-  surabaya_volley: "https://maps.app.goo.gl/example27",
+  surabaya_soccer: "https://maps.app.goo.gl/v9Qf77LzjcHYgs8MA",
+  surabaya_futsal: "https://maps.app.goo.gl/v9Qf77LzjcHYgs8MA",
+  surabaya_badminton: "https://maps.app.goo.gl/ZFT4sKzJw2uDxSgMA",
+  surabaya_tennis: "https://maps.app.goo.gl/MqZs1fLTPTcETqSr6",
+  surabaya_mini: "https://maps.app.goo.gl/GtNAZwqsxmbhKMyL9",
+  surabaya_volley: "https://maps.app.goo.gl/U5WuyKGgnNe7JyR6A",
 
   // Kota Semarang
-  semarang_soccer: "https://maps.app.goo.gl/example28",
-  semarang_futsal: "https://maps.app.goo.gl/example29",
-  semarang_badminton: "https://maps.app.goo.gl/example30",
-  semarang_tennis: "https://maps.app.goo.gl/example31",
-  semarang_mini: "https://maps.app.goo.gl/example32",
-  semarang_basket: "https://maps.app.goo.gl/example33",
+  semarang_soccer: "https://maps.app.goo.gl/Hu4ZqLTGFN3KNNyw6",
+  semarang_futsal: "https://maps.app.goo.gl/dCp8kX24gVQUnm6A7",
+  semarang_badminton: "https://maps.app.goo.gl/e4HrNxRa6Fdi3ykd8",
+  semarang_tennis: "https://maps.app.goo.gl/YMBqiiLphHDaVXMw5",
+  semarang_mini: "https://maps.app.goo.gl/GqPEsN7hiZ7hG81r8",
+  semarang_basket: "https://maps.app.goo.gl/k8QB6W9MHw5oBTqy7",
 
   // Kota Medan
-  medan_soccer: "https://maps.app.goo.gl/example34",
-  medan_futsal: "https://maps.app.goo.gl/example35",
-  medan_badminton: "https://maps.app.goo.gl/example36",
-  medan_tennis: "https://maps.app.goo.gl/example37",
-  medan_mini: "https://maps.app.goo.gl/example38",
-  medan_volley: "https://maps.app.goo.gl/example39",
+  medan_soccer: "https://maps.app.goo.gl/gFzv53jHQbth814t8",
+  medan_futsal: "https://maps.app.goo.gl/PQ5VTbpFB3v9TkAA9",
+  medan_badminton: "https://maps.app.goo.gl/ywsqN7JEGgRfViZx8",
+  medan_tennis: "https://maps.app.goo.gl/kk4qoNArRRffmoP76",
+  medan_mini: "https://maps.app.goo.gl/vjZy2SuHrstaR1AMA",
+  medan_volley: "https://maps.app.goo.gl/mE5nNGMhwi2iYGEi9",
 
   // Kota Bali
-  bali_soccer: "https://maps.app.goo.gl/example40",
-  bali_futsal: "https://maps.app.goo.gl/example41",
-  bali_badminton: "https://maps.app.goo.gl/example42",
-  bali_tennis: "https://maps.app.goo.gl/example43",
-  bali_mini: "https://maps.app.goo.gl/example44",
-  bali_yoga: "https://maps.app.goo.gl/example45",
+  bali_soccer: "https://maps.app.goo.gl/bcfP1pBABbdqSdXJ9",
+  bali_futsal: "https://maps.app.goo.gl/RHPgZE1iK7Mufyhg6",
+  bali_badminton: "https://maps.app.goo.gl/cHmXYhk2jeMtfa99A",
+  bali_tennis: "https://maps.app.goo.gl/1kX823BE9FmN79EZ9",
+  bali_mini: "https://maps.app.goo.gl/zkBtkrWTzduDTLRa6",
+  bali_yoga: "https://maps.app.goo.gl/GNQqeVGB5ek9jekC7sssas",
 };
 
 // Fungsi untuk load Google Maps embed
@@ -3109,7 +3120,6 @@ window.addEventListener("resize", function () {
 });
 // === INIT ===
 document.addEventListener("DOMContentLoaded", function () {
-  
   // init booking date
   document.getElementById("booking-date").valueAsDate = new Date();
   // auth UI
