@@ -1343,3 +1343,20 @@ body {
     color: white;
     transform: translateX(5px);
 }
+
+/* --- FIX CAROUSEL BUTTON CLICK --- */
+.carousel-caption {
+    /* Biarkan klik menembus area kosong di caption */
+    pointer-events: none; 
+    z-index: 10;
+}
+
+.carousel-caption > * {
+    /* Aktifkan kembali klik hanya pada teks dan tombol */
+    pointer-events: auto; 
+}
+
+.carousel-caption .btn {
+    position: relative;
+    z-index: 20; /* Pastikan tombol di atas layer drag */
+}

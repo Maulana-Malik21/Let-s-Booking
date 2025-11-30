@@ -1565,23 +1565,17 @@ function showMyBooking() {
         return;
     }
 
-    // 1. Tutup Menu Mobile
     closeMobileMenu();
-
-    // 2. Pindah Halaman
     hideAllViews();
     document.getElementById("view-my-booking").classList.remove("d-none");
 
-    // 3. Scroll Paksa ke Atas
     setTimeout(() => {
         window.scrollTo(0, 0);
     }, 100);
 
-    // 4. Render List (Kode lama Anda)
     const listContainer = document.getElementById("my-booking-list");
     const emptyState = document.getElementById("empty-booking-state");
     
-    // Pastikan user.bookingHistory ada
     const history = user.bookingHistory || [];
     
     listContainer.innerHTML = "";
@@ -1611,7 +1605,15 @@ function showMyBooking() {
                         <div class="col-md-4 text-md-end mt-3 mt-md-0">
                             <div class="booking-status status-paid d-inline-block mb-2">${booking.status}</div>
                             <h5 class="fw-bold text-primary">${formatRupiah(booking.totalPrice)}</h5>
-                           <button class="btn btn-sm btn-outline-primary mt-1" onclick="showETicket('${booking.id}')">Lihat E-Tiket</button>
+                            
+                            <div class="mt-2">
+                                <button class="btn btn-sm btn-outline-primary me-1" onclick="showETicket('${booking.id}')">
+                                    <i class="fas fa-ticket-alt me-1"></i>E-Tiket
+                                </button>
+                                <button class="btn btn-sm btn-outline-danger" onclick="deleteBooking('${booking.id}')" title="Hapus Riwayat">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1620,6 +1622,44 @@ function showMyBooking() {
         });
     }
 }
+
+// === FUNGSI HAPUS BOOKING ===
+function deleteBooking(bookingId) {
+    if (!confirm("Apakah Anda yakin ingin menghapus riwayat booking ini?")) {
+        return;
+    }
+
+    const currentUser = getCurrentUser();
+    if (!currentUser || !currentUser.bookingHistory) return;
+
+    // 1. Filter history untuk membuang ID yang dipilih
+    const oldLength = currentUser.bookingHistory.length;
+    currentUser.bookingHistory = currentUser.bookingHistory.filter(b => b.id !== bookingId);
+
+    if (currentUser.bookingHistory.length === oldLength) {
+        alert("Gagal menghapus data. ID tidak ditemukan.");
+        return;
+    }
+
+    // 2. Simpan Perubahan ke LocalStorage
+    
+    // A. Update Current User Session
+    localStorage.setItem('gelora_current_user', JSON.stringify(currentUser));
+
+    // B. Update di Array 'gelora_users' (Database Utama)
+    let allUsers = JSON.parse(localStorage.getItem('gelora_users') || "[]");
+    const userIndex = allUsers.findIndex(u => u.email === currentUser.email);
+    
+    if (userIndex !== -1) {
+        allUsers[userIndex] = currentUser; 
+        localStorage.setItem('gelora_users', JSON.stringify(allUsers));
+    }
+
+    // 3. Refresh Tampilan
+    alert("Riwayat booking berhasil dihapus.");
+    showMyBooking(); // Render ulang list
+}
+
 function switchTab(tabName) {
   // Update active tab
   document.querySelectorAll(".tab-item").forEach((tab) => {
